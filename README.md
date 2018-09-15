@@ -1,10 +1,12 @@
-#Spritz Lint
+# Spritz Lint
+
 This is a convenient set of eslint rules to format your code following the most used conventions. This module provides rules for ECMAScript 6 code and React.  
 
-##Installation
+## Installation
+
 `npm install spritz-lint --save-dev`
 
-##Usage with Webpack
+## Usage with Webpack
 Install [eslint-loader](https://github.com/webpack-contrib/eslint-loader) if not already installed.
 Extend your rule for the file type you want to lint in the following way:
 
@@ -33,7 +35,7 @@ Extend your rule for the file type you want to lint in the following way:
 
 ```
 
-##Usage in .eslintconfig file
+## Usage in .eslintconfig file
 You can also extend directly your `.eslintconfig` file:
 ```json
 {
@@ -43,7 +45,7 @@ You can also extend directly your `.eslintconfig` file:
 }
 ```
 
-##Install required extra npm modules
+## Install required extra npm modules
 
 Install extra npm modules (if needed) as defined in the README file of each language configuration file folder 
 
