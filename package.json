@@ -1,0 +1,35 @@
+{
+  "name": "spritzlint",
+  "version": "1.0.0",
+  "description": "A set of eslint rules for beautiful JS and more",
+  "main": "index.js",
+  "scripts": {
+    "prerelease:major": "changelog -M && git add CHANGELOG.md",
+    "release:major": "git commit -m 'Updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
+    "prerelease:minor": "changelog -m && git add CHANGELOG.md",
+    "release:minor": "git commit -m 'Updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
+    "prerelease:patch": "changelog -p && git add CHANGELOG.md",
+    "release:patch": "git commit -m 'Updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matteovinci/spritzlint.git"
+  },
+  "keywords": [
+    "eslint",
+    "javascript",
+    "code",
+    "formatting",
+    "style"
+  ],
+  "author": "Matteo Vinci <matteovinci88@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matteovinci/spritzlint/issues"
+  },
+  "homepage": "https://github.com/matteovinci/spritzlint#readme",
+  "devDependencies": {
+    "generate-changelog": "^1.7.1"
+  }
+}
