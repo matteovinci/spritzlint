@@ -61,7 +61,7 @@ In a controlled component, form data is handled by a React component. The altern
 * A **Uncontrolled Component** is one that stores its own state internally, and you query the DOM using a ref to find its current value when you need it. This is a bit more like traditional HTML.
 
 ```javascript
-class EventsWidget extends React.Component {
+class Widget extends React.Component {
     constructor() {
         super();
         this.state = {

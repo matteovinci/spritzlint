@@ -21,7 +21,7 @@ Extend your rule for the file type you want to lint in the following way:
             {
                 loader: 'eslint-loader',
                 options: {
-                    configFile: './node_modules/spritz-lint/javascript/code-style-es6-react.js',
+                    configFile: './node_modules/spritz-lint/javascript/es6-react.js',
                     failOnWarning: false,
                     failOnError: true,
                     fix: true
@@ -38,7 +38,7 @@ You can also extend directly your `.eslintconfig` file:
 ```json
 {
     ...
-    "extends": "./node_modules/spritz-lint/javascript/code-style-es6-react.js"
+    "extends": "./node_modules/spritz-lint/javascript/es6-react.js"
     ...
 }
 ```
@@ -47,4 +47,4 @@ You can also extend directly your `.eslintconfig` file:
 
 Install extra npm modules (if needed) as defined in the README file of each language configuration file folder 
 
-e.g. for `javascript/es6/code-style-react.json` you will need `eslint-plugin-react` npm module.
+e.g. for `javascript/es6/react/react.js` you will need `eslint-plugin-react` npm module.
