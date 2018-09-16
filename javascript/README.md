@@ -1,7 +1,7 @@
-#Configuration files usage
+# Configuration files usage
 See main [README](../../README.md) for general usage.
 
-###Required extra npm modules
+### Required extra npm modules
 
 | Configuration files | Extra npm modules required  |
 | ------------------ | ----- |
