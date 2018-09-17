@@ -30,7 +30,7 @@ module.exports = {
         }
     },
     extends: [
-        '../code-style-javascript.js',
+        '../javascript.js',
         'plugin:import/errors'
     ],
     settings: {

@@ -4,7 +4,11 @@ This is a convenient set of eslint rules to format your code following the most 
 
 ## Installation
 
-`npm install spritz-lint --save-dev`
+`npm install spritzlint --save-dev`
+
+**IMPORTANT: Make you have the correct version of babel-eslint and eslint installed**
+
+Check the correct version of `babel-eslint` to install [https://github.com/babel/babel-eslint](https://github.com/babel/babel-eslint)
 
 ## Usage with Webpack
 Install [eslint-loader](https://github.com/webpack-contrib/eslint-loader) if not already installed.
@@ -23,7 +27,7 @@ Extend your rule for the file type you want to lint in the following way:
             {
                 loader: 'eslint-loader',
                 options: {
-                    configFile: './node_modules/spritz-lint/javascript/es6-react.js',
+                    configFile: './node_modules/spritzlint/javascript/es6-react.js',
                     failOnWarning: false,
                     failOnError: true,
                     fix: true
@@ -40,7 +44,7 @@ You can also extend directly your `.eslintconfig` file:
 ```json
 {
     ...
-    "extends": "./node_modules/spritz-lint/javascript/es6-react.js"
+    "extends": "./node_modules/spritzlint/javascript/es6-react.js"
     ...
 }
 ```

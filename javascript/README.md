@@ -6,6 +6,6 @@ See main [README](../../README.md) for general usage.
 | Configuration files | Extra npm modules required  |
 | ------------------ | ----- |
 | `./javascript.js`      | - |
-| `./es6/es6.js`         |  `eslint-plugin-import`, `eslint-import-resolver-webpack` |
-| `./react/react.js`     |  `eslint-plugin-react` |
-| `./es6-react.js`       |  `eslint-plugin-import`, `eslint-import-resolver-webpack`, `eslint-plugin-react` |
+| `./es6/es6.js`         |  `npm install eslint-plugin-import eslint-import-resolver-webpack --save-dev` |
+| `./react/react.js`     |  `npm install eslint-plugin-react --save-dev` |
+| `./es6-react.js`       |  `npm install eslint-plugin-import eslint-import-resolver-webpack eslint-plugin-react --save-dev` |
